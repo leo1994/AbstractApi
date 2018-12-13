@@ -1,0 +1,27 @@
+{
+    "name": "leo1994/InterfaceApi",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Leonardo A. de Souza",
+            "email": "leo.adriano1994@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.3",
+        "mockery/mockery": "^0.9.9"
+    },
+    "autoload": {
+        "psr-4": {
+        	"InterfaceApi\\": "src/"
+       	}
+    },
+    "scripts": {
+        "test": [
+            "phpunit"
+        ]
+    }
+}
